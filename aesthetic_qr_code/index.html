@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Aesthetic QR Code - Examples</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/4-col-portfolio.css" rel="stylesheet">
+
+  </head>
+
+  <body class="pt-0">
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <!-- Page Heading -->
+      <h1 class="my-4">Aesthetic QR code - examples
+      </h1>
+
+      <div class="row">
+
+          <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+              <div class="card h-100">
+                <img class="card-img-top" src="a0.gif" alt="">
+                <div class="card-body">
+                  <h4 class="card-title">
+                    Fig. 9(a):<br>&#955;=0 (extreme)
+                  </h4>
+                  <p class="card-text">
+                    Transition cost factor &#955;=0<br>
+                    Error-correction level: Low<br>
+                    Can correct up to 10 codeword errors<br><br>
+                    Due to no transition cost, this video QR code changes every frame.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+            <div class="card h-100">
+              <img class="card-img-top" src="a05.gif" alt="">
+              <div class="card-body">
+                <h4 class="card-title">
+                  Fig. 9(b):<br>&#955;=0.5
+                </h4>
+                <p class="card-text">
+                  Transition cost factor &#955;=0.5<br>
+                  Error-correction level: Low<br>
+                  Can correct up to 10 codeword errors<br><br>
+                  Using this more "balanced" value of &#955;, this video QR code changes only when the QR code is disaligned with the logo such that it outweighs the transition cost.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+              <div class="card h-100">
+                <img class="card-img-top" src="a10.gif" alt="">
+                <div class="card-body">
+                  <h4 class="card-title">
+                    Fig. 9(c):<br>&#955;=100 (extreme)
+                  </h4>
+                  <p class="card-text">
+                    Transition cost factor &#955;=100<br>
+                    Error-correction level: Low<br>
+                    Can correct up to 10 codeword errors<br><br>
+                    Due to very large transition cost, this video QR code do not do transitions, and instead uses the most representative QR code for across all frames.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+                <div class="card h-100">
+                  <img class="card-img-top" src="H_a01_ce22.gif" alt="">
+                  <div class="card-body">
+                    <h4 class="card-title">
+                      Fig. 9(d):<br>&#955;=0.1 (with erasure)
+                    </h4>
+                    <p class="card-text">
+                      Transition cost factor &#955;=0.1<br>
+                      Error-correction level: High<br>
+                      With 22 codeword erasure chosen greedily<br>
+                      Can correct up to 10 codeword errors<br><br>
+                      For each frame, greedily choose 22 codewords to erase, then apply our modified RS code padding-parity bit selection algorithm.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+                  <div class="card h-100">
+                    <img class="card-img-top" src="ball.gif" alt="">
+                    <div class="card-body">
+                      <h4 class="card-title">
+                        Ball
+                      </h4>
+                      <p class="card-text">
+                        Transition cost factor &#955;=0.5<br>
+                        Error-correction level: Low<br>
+                        Can correct up to 10 codeword errors
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+                    <div class="card h-100">
+                      <img class="card-img-top" src="burger.gif" alt="">
+                      <div class="card-body">
+                        <h4 class="card-title">
+                          Burger
+                        </h4>
+                        <p class="card-text">
+                          Transition cost factor &#955;=0.5<br>
+                          Error-correction level: Low<br>
+                          Can correct up to 10 codeword errors
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+                      <div class="card h-100">
+                        <img class="card-img-top" src="pika.gif" alt="">
+                        <div class="card-body">
+                          <h4 class="card-title">
+                            Pikachu
+                          </h4>
+                          <p class="card-text">
+                            Transition cost factor &#955;=0.5<br>
+                            Error-correction level: Low<br>
+                            Can correct up to 10 codeword errors
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+                        <div class="card h-100">
+                          <img class="card-img-top" src="pika2.gif" alt="">
+                          <div class="card-body">
+                            <h4 class="card-title">
+                              Pikachu (with erasure)
+                            </h4>
+                            <p class="card-text">
+                                Transition cost factor &#955;=0.1<br>
+                                Error-correction level: High<br>
+                                With 22 codeword erasure chosen greedily<br>
+                                Can correct up to 10 codeword errors
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+      </div>
+      <!-- /.row -->
+
+      <div class="row pb-5">
+          <div class="col-lg-12 text-center">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/ln-nEdUW3mQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <h1 class="mt-5">Additional Links</h1>
+            <ul class="list-unstyled">
+              <li>
+                <a href="http://isteps.comp.nus.edu.sg/event/13th-steps/module/MIP-FYP-UR/project/1">
+                  The 13th SoC Term Project Showcase (13th STePS, 14 Nov 2018): Aesthetic QR Code</li>
+                </a>
+              <li>
+                <a href="https://raw.githubusercontent.com/initialshl/13th-STEPS-AestheticQrCode/master/poster/13steps_poster.png">
+                  Simple poster for 13th STePS: Aesthetic QR Code</li>
+                </a>
+              <li>
+                Source code (in Java) is hosted on a private GitHub repository. Please feel free to email onghl(at)u.nus.edu if you would like to access it.
+            </ul>
+          </div>
+        </div>
+    </div>
+    <!-- /.container -->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
